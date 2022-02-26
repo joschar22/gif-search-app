@@ -3,13 +3,18 @@
 }
 
 body{
-  padding: 20px;
+  padding: 60px;
+  background: rgb(26, 238, 132);
+  
+  
 }
 input{
-  color: grey;
+  color: #49499df2;
   font-size: 1.2rem;
   width: 100%;
   margin: 5px;
+  border: 1px solid #4c995de0;
+
 }
 .cardGrid{
   display: flex;
@@ -32,4 +37,22 @@ input{
 
 .card img {
   max-height: 170px;
+}
+/*mis estilos  */ 
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: blue;
+  font-size: 2em;
+  margin: auto;
+}
+h2.myname{
+  text-align: right;
+  margin-top: 2px;
+  text-transform: capitalize;
+  font-size: 10px;
+  font-style: italic;
+  color: blue;
 }

@@ -7,10 +7,13 @@ export const GiftSearchApp = () => {
 
   return (
     <>
-      <h2>GiftSearchApp</h2>
+      <h1 >GiftSearchApp</h1>
       <AddCategory setCategories={setCategories} />
+      <h2 className="myname"> from  jose chaqquere rea </h2>
       <hr />
-      <ol>
+      
+
+      <ol className="lista">
         {
         categories.map((category) => (
           <GifGrid 
